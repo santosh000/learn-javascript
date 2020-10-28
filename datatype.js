@@ -33,5 +33,21 @@ const temp =(`my name is ${name} and i am ${age}`);
 console.log(temp);
 
 
+// string properties and method
+
+const b ='hi tHere';
+console.log(b.length);        //length is a properties
+console.log(b.toUpperCase()); //toUpperCase is a method
+                              // method is a function which associate  with  object
+console.log(b.toLowerCase());
+console.log(b.substring(0,4));//two index start and end
+
+// split a string into an arry
+
+const h ='java, css, html, bootstrap';
+console.log(h.split(', '));//split by , and space separate
+                           // in this case we can easily insert in to database and search
+console.log(h.split(''));  // '' split by latter
+
 
 
