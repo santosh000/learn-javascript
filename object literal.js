@@ -39,4 +39,4 @@ console.log(state);
 person.email = 'sam@gmai.com';
 
 console.log(person);                                      // email added, check out put
-console.log(person.email);
+console.log(person.email);                                //
