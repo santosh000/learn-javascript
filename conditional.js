@@ -85,5 +85,58 @@ if (o > 10 && p < 30){
     console.log('print me');
 }else{
 
-    console.log('condition false');// output is 'condition false' because the condition is false (both condition must be meet o>10 and p<30 if one of the condition is false then total statement is false)
+    console.log('condition false');    // output is 'condition false' because the condition is false (both condition must be meet o>10 and p<30 if one of the condition is false then total statement is false)
+}
+
+
+
+
+/**--------------------------------------------
+ *               ternary operator
+ *---------------------------------------------**/
+
+
+//  it's basically shorthand if statement and it used a lot to assign variable based on a condition
+
+// ' ? ' ' : ' are ternary operator 
+
+const m = 50;
+
+const color = x > 10 ? 'red' : 'blue'; // lets say we want to create a variable 'color' and it based on condition 'x > 10' then (?) if this is true set color is 'red' else (:) set it to 'blue'
+
+console.log(color);
+
+
+
+/**--------------------------------------------
+ *               switch
+ *---------------------------------------------**/
+
+//  it's a another way to evaluate condition
+
+
+const l = '30';
+
+const colour = l < 10 ? 'pink' : 'yellow';
+
+switch(colour){                        // we are gonna evaluate the colour by using cases
+
+    case 'pink':                       // 
+
+        console.log('this is pink');   //do some code 
+
+        break;                         // break then jump another case
+
+    case 'yellow':
+
+        console.log('this is yellow');
+
+        break;
+
+    default:
+
+        console.log('this is not pink or yellow');
+
+        break;
+
 }
