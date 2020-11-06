@@ -62,7 +62,7 @@ addNums4();
 
 
 
-const addNums5 = num1 => num1 + 5;  //This works only if we have only one parameter.
+const addNums5 = num1 => num1 + 5;                                      //This works only if we have only one parameter.
 
 console.log(addNums5(1));
 
