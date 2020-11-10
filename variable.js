@@ -4,7 +4,7 @@
 
                  //(globally scope,ex -let we have a condition and we set a variable.out side of that block if we have another variable with same name that can cause a issue thats why rare use.)
 
-                 //let and const were add in es6(es2015)es-ecmo script
+                 //let and const were add in es6(es2015) script
 
                  //let-wit this we can re assign value
                  //ex-

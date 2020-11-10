@@ -133,7 +133,7 @@ switch(colour){                        // we are gonna ev
 
         break;
 
-    default:
+    default:                           // we have a default case, if the above condition are false then this statement print
 
         console.log('this is not pink or yellow');
 

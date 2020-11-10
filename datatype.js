@@ -9,13 +9,13 @@ const hii =undefined;
 let z;
 
 
-console.log(typeof name1);      //string
-console.log(typeof number);    //number
-console.log(typeof rating);    //number no such things decimal in java script
-console.log(typeof thisiscool);//boolean
-console.log(typeof hi);        //object
-console.log(typeof hii);       //undefined
-console.log(typeof z);         //undefined
+console.log(typeof name1);                            //string
+console.log(typeof number);                           //number
+console.log(typeof rating);                           //number no such things decimal in java script
+console.log(typeof thisiscool);                       //boolean
+console.log(typeof hi);                               //object
+console.log(typeof hii);                              //undefined
+console.log(typeof z);                                //undefined
 
 
 /**================================================================================================
@@ -28,7 +28,7 @@ console.log(typeof z);         //undefined
 //  Concatenation
 console.log('my name is ' + name + ' and i am ' +age);//old method
 console.log(`my name is ${name} and i am ${age}`);    //new and easy
-// or 
+                                                      // or 
 const temp =(`my name is ${name} and i am ${age}`);
 console.log(temp);
 
@@ -36,18 +36,18 @@ console.log(temp);
 // string properties and method
 
 const b ='hi tHere';
-console.log(b.length);        //length is a properties
-console.log(b.toUpperCase()); //toUpperCase is a method
-                              // method is a function which associate  with  object
+console.log(b.length);                                //length is a properties
+console.log(b.toUpperCase());                         //toUpperCase is a method
+                                                      // method is a function which associate  with  object
 console.log(b.toLowerCase());
-console.log(b.substring(0,4));//two index start and end
+console.log(b.substring(0,4));                        //two index start and end
 
-// split a string into an arry
+                                                      // split a string into an arry
 
 const h ='java, css, html, bootstrap';
-console.log(h.split(', '));//split by , and space separate
-                           // in this case we can easily insert in to database and search
-console.log(h.split(''));  // '' split by latter
+console.log(h.split(', '));                           //split by , and space separate
+                                                      // in this case we can easily insert in to database and search
+console.log(h.split(''));                             // '' split by latter
 
 
 

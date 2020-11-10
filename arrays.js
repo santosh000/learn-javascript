@@ -18,7 +18,7 @@ console.log(hi);   //you can set multiple datatype in array in java script
 
 console.log(hi[2]);        //output is 'hi'
 
-                           // add data to an array
+// add data to an array
 
                            //when we know the length of an array
 hi[6] = 'new';             //adding new value at the end
