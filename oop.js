@@ -91,7 +91,7 @@ me.printIntroduction();
 
 // ES6 classes
 
-// Defining class using es6 
+// Defining class using es6  (call syntactic sugar)
 class Vehicle { 
     constructor(name, maker, engine) { 
         this.name = name; 
